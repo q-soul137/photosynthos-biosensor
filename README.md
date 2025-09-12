@@ -32,7 +32,8 @@ We show that the ground state of the quantum Lamb model is a nonclassical state 
 This squeezing is not transient — it is *encoded in the ground state itself*.
 
 > **Reference**:  
-> PHYSICAL REVIEW RESEARCH 7, L032004 (2025)Quantum Lamb model Dennis P. Clougherty and Nam H. Dinh
+> PHYSICAL REVIEW RESEARCH 7, L032004 (2025)Quantum Lamb model
+> Dennis P. Clougherty and Nam H. Dinh
 > Department of Physics, University of Vermont, Burlington, Vermont 05405-0125, USA
 > (Received 27 March 2025; accepted 17 June 2025; published 7 July 2025)
 
@@ -79,7 +80,7 @@ $$
 \Delta x \cdot \Delta p \geq \frac{\hbar}{2} = 0.5 \quad \text{(in natural units)}
 $$
 
-### 2. External Actuation (Squeezebox 🪗)
+### 2. External Actuation (Squeezebox 🪗)>
 When a user plays a note, intensity $ I \in [0,1] $ affects:
 
 - **Number of modes squeezed**:
