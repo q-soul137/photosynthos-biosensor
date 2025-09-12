@@ -34,7 +34,6 @@ This squeezing is not transient — it is *encoded in the ground state itself*.
 > **Reference**:  
 > D. P. Clougherty and T.-S. T. Dinh, *"Exact solution for the damped quantum harmonic oscillator"*,    
 > [https://journals.aps.org/prresearch/pdf/10.1103/9fxx-2x6n)
-> [https://arxiv.org/abs/2301.09787]
 > [https://journals.aps.org/prresearch/abstract/10.1103/9fxx-2x6n)
 
 ### Why Squeezing Matters
