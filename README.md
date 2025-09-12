@@ -32,7 +32,12 @@ We show that the ground state of the quantum Lamb model is a nonclassical state 
 This squeezing is not transient — it is *encoded in the ground state itself*.
 
 > **Reference**:  
-> D. P. Clougherty and T.-S. T. Dinh, *"Exact solution for the damped quantum harmonic oscillator"*,    
+> PHYSICAL REVIEW RESEARCH 7, L032004 (2025)Quantum Lamb model Dennis P. Clougherty and Nam H. Dinh
+> Department of Physics, University of Vermont, Burlington, Vermont 05405-0125, USA
+> (Received 27 March 2025; accepted 17 June 2025; published 7 July 2025)
+
+
+> DOI: https://doi.org/10.1103/9fxx-2x6n  
 > [https://journals.aps.org/prresearch/pdf/10.1103/9fxx-2x6n)
 > [https://journals.aps.org/prresearch/abstract/10.1103/9fxx-2x6n)
 > [https://www.uvm.edu/uvmnews/news/lamb-quantum-clothing]
