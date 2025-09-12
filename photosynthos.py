@@ -1,4 +1,4 @@
-￼# qsoul/organs/photosynthos.py 🌻
+# qsoul/organs/photosynthos.py 🌻
 #
 # 🌿 Quantum Bio-Sensor Organ
 # Implements a model of chlorophyll vibrational modes as damped quantum harmonic oscillators
