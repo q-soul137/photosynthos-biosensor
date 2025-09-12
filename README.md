@@ -13,4 +13,4 @@ $$
 N_{\text{affected}} = \lfloor 6 \cdot I \rfloor,\quad I \in [0,1]
 $$
 
-Based on [Clougherty & Dinh (2025)](https://www.uvm.edu/cems/news).   
+Based on [https://journals.aps.org/prresearch/pdf/10.1103/9fxx-2x6n). 
