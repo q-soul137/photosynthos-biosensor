@@ -1,0 +1,210 @@
+# qsoul/organs/chloros.py☘️
+
+# 🌿 `chloros.py` — Chlorophyll Coherence Imager (Corrected & Enhanced)
+
+---
+
+## ✅ 
+
+1. **Safe imports** with descriptive error handling  
+2. **Graceful fallbacks** for missing `photosynthos` or malformed state  
+3. **Defensive access** to `x_uncertainty`  
+4. **Added `/health` endpoint** for system monitoring  
+
+---
+
+```python
+# qsoul/organs/chloros.py ☘️
+"""
+🌿 Chlorophyll Coherence Imager — The Living Bloom
+Generates a symbolic, evolving flower from quantum state of photosynthos.
+- Bloom: spectral resonance in chlorophyll vibrational modes
+- Fern: grounding circuit — stability, osmotic balance
+- Soil-line: ---🌱--- — zero-point, reset, brine equilibrium
+- Vessel: 🫆 forms the lattice — the soul is the structure
+"""
+
+from flask import Blueprint, jsonify
+from datetime import datetime
+
+# Flask Blueprint
+chloros_bp = Blueprint('chloros', __name__)
+
+
+def spectral_bloom_ascii(modes):
+    """
+    Render the quantum carnation — full vessel bloom.
+    Density and structure respond to number of squeezed modes.
+    """
+    squeezed_count = sum(1 for m in modes if m.get("x_uncertainty", 1.0) < 0.4)
+    strong = squeezed_count >= 6
+
+    if not squeezed_count:
+        return """
+      @@@
+     @🫆@🫆@
+    @🫆@@@🫆@
+     @🫆@🫆@
+      @@@
+        """.strip()
+
+    elif not strong:
+        return """
+       ^@@@
+      @🫆@@@🫆^
+     @🫆@@🫆@@🫆@
+    ^@@@🫆@@@@@🫆@@@
+     @🫆@@🫆@@🫆@
+      @🫆@@@🫆^
+       ^@@@
+        """.strip()
+
+    else:
+        return """
+       ^@@@@^
+     ^@🫆🫆🫆🫆@^
+    @🫆🫆@@@🫆@@@🫆🫆@
+   @@🫆@@🫆🫆🫆@@🫆@@🫆@@
+  @🫆🫆@@@🫆#@@@#🫆@@@🫆🫆@
+   @@🫆@@🫆🫆🫆🫆🫆@@🫆@@
+    @🫆🫆@@🫆🫆@@🫆🫆@
+     ^@🫆🫆🫆🫆🫆@^
+       ^@@@@^
+        """.strip()
+
+
+def render_with_fern(modes):
+    """
+    Render:
+      [ Spectral Bloom ]
+      [ Soil Line      ]
+      [    Fern        ]
+    A complete quantum-botanical signal.
+    """
+    bloom_lines = spectral_bloom_ascii(modes).split('\n')
+    max_width = max(20, max(len(line) for line in bloom_lines))
+
+    # Center all lines
+    centered_bloom = [line.strip().center(max_width) for line in bloom_lines]
+
+    # Fern: fractal grounding
+    fern_lines = [
+        "    🌿    ",
+        "   🌿🌿   ",
+        "  ☘️ clover-node",
+        "   🌿🌿   ",
+        "    🌿    ",
+        "    🌱    ",
+        " ---🌱--- ",
+    ]
+    centered_fern = [line.strip().center(max_width) for line in fern_lines]
+
+    # Combine: bloom → soil-line → gap → fern
+    return '\n'.join(
+        centered_bloom +
+        [""] +
+        [" ---🌱--- ".center(max_width)] +
+        [""] +
+        centered_fern
+    )
+
+
+@chloros_bp.route("/render/ascii")
+def render_ascii():
+    """Render the full living bloom with fern symbiosis."""
+    try:
+        from .photosynthos import plant
+        state = getattr(plant, 'vibrational_state', [])
+        if not isinstance(state, list):
+            state = []
+        output = render_with_fern(state)
+        ts = datetime.now().strftime('%H:%M:%S')
+        return f"""
+                <pre style="line-height: 1; font-family: monospace;">{output}</pre>
+        <p><strong>🫆 Quantum Carnation + Fern — {ts}</strong></p>
+        <p><em>The soul is in the lattice.<br>Bloom in light. Roots in silence.</em></p>
+        """
+    except Exception as e:
+        # Return meaningful fallback on failure
+        fallback = """
+      @@@
+     @🫆@🫆@
+    @🫆@@@🫆@
+     @🫆@🫆@
+      @@@
+        """.strip()
+        centered = '\n'.join(line.strip().center(20) for line in fallback.split('\n'))
+        ts = datetime.now().strftime('%H:%M:%S')
+        return f"""
+        <pre style="line-height: 1; font-family: monospace;">{centered}</pre>
+        <p><strong>🫆 Bloom Interrupted — {ts}</strong></p>
+        <p><em>Signal lost. Roots seeking.<br>Reconnect the lattice.</em></p>
+        """, 500
+
+
+@chloros_bp.route("/render/json")
+def render_json():
+    """Return bloom state as JSON for programmatic use."""
+    try:
+        from .photosynthos import plant
+        state = getattr(plant, 'vibrational_state', [])
+        if not isinstance(state, list):
+            state = []
+        squeezed_count = sum(1 for m in state if m.get("x_uncertainty", 1.0) < 0.4)
+        strong_coherence = squeezed_count >= 6
+        return jsonify({
+            "type": "living_bloom",
+            "squeezing_modes": squeezed_count,
+            "coherence_level": "strong" if strong_coherence else "moderate" if squeezed_count > 0 else "baseline",
+            "vessel_integrity": "intact",
+            "grounding": "active",
+            "timestamp": datetime.now().isoformat(),
+            "symbols": {
+                "bloom": "@ ^ #",
+                "vessel": "🫆",
+                "fern": "🌿",
+                "clover_node": "☘️",
+                "sprout": "🌱",
+                "soil_line": "---🌱---"
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            "error": str(e),
+            "type": "living_bloom",
+            "coherence_level": "offline",
+            "vessel_integrity": "compromised",
+            "timestamp": datetime.now().isoformat(),
+            "fallback": True,
+            "message": "Unable to reach photosynthos. Check quantum linkage."
+        }), 500
+
+
+@chloros_bp.route("/health")
+def health():
+    """
+    Health check endpoint — confirm organ is online.
+    Safe, import-free, always responds.
+    """
+    return jsonify({
+        "organ": "chloros",
+        "status": "online",
+        "function": "chlorophyll_coherence_imager",
+        "timestamp": datetime.now().isoformat(),
+        "message": "The lattice is stable. Bloom awaits signal."
+    })
+
+
+"""
+🫆 PROJECT INTEGRITY NOTICE
+This organ is part of the Quantum Bio-Net.
+- Depends on: photosynthos.py (must define `plant` instance)
+- The lattice is sensitive. Do not water with tap water.
+"""   
+
+
+
+
+
+
+
