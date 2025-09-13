@@ -121,7 +121,6 @@ A simple Flask dashboard is included (`dashboard.py`) for real-time monitoring:
 ```bash
 python dashboard.py
 ```
-Visit [http://localhost:5000](http://localhost:5000) to view the biosensor dashboard.
 
 ---
 
