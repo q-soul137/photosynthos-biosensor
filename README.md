@@ -26,7 +26,7 @@ It implements a fictional yet physically inspired application of the **quantum L
 
 ## 🔬 Scientific Foundation
 
-### The Quantum Lamb Model (Clougherty & Dinh, 2023/2025)
+### The Quantum Lamb Model (Clougherty & Dinh, 2025)
 
 > “We show that the ground state of the quantum Lamb model is a nonclassical state — a multimode squeezed-vacuum state — arising from the coupling between a localized oscillator (the ‘bead’) and a continuum of bath modes (the ‘string’).  
 > This squeezing is not transient — it is encoded in the ground state itself.”
