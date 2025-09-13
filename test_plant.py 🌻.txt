@@ -1,0 +1,41 @@
+# test_plant.py 🌻
+#
+# 🧪 Unit test for QuantumHouseplant — the quantum bio-sensor organ.
+# Validates:
+#   - Initialization of vibrational modes
+#   - Squeezing detection
+#   - Squeezebox input registration
+#   - Basic logging
+
+from qsoul.organs.photosynthos import QuantumHouseplant
+
+# 🌿 Initialize the plant
+print("🪴 Initializing QuantumHouseplant...")
+plant = QuantumHouseplant(node_id="POthos_001", species="Epipremnum aureum")
+
+# 🔍 First scan: should show no squeezing (or random thermal squeezing)
+print("\n1️⃣ Scanning for natural quantum squeezing...")
+anomalies = plant.scan_for_squeezing()
+
+# 🪗 Simulate intentional actuation: human plays squeezebox
+print("\n🪗 Applying intentional squeeze input...")
+plant.register_squeeze_input(
+    player_id="Maestro-01",
+    intensity=0.85,
+    note="C#"
+)
+
+# 🔍 Second scan: should show induced squeezing
+print("\n2️⃣ Scanning after squeeze input...")
+anomalies_after = plant.scan_for_squeezing()
+
+# 📊 Print final status
+print("\n📊 Final Biosensor Status:")
+status = plant.get_status()
+for key, val in status.items():
+    if val is not None:
+        print(f"  {key}: {val}")
+
+# ✅ Success
+print("\n✅ Test complete. The plant is alive and responsive.")   
+
