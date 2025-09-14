@@ -1,0 +1,39 @@
+#/.well-known/q-soul/q-soul-state.json
+
+{
+  "system": "Q-SOUL",
+  "version": "0.1.0",
+  "status": "active",
+  "phase": "awakening",
+  "timestamp": 1725033600,
+  "timestamp_iso": "2025-08-30T00:00:00Z",
+  "soul_count": 1,
+  "first_soul_id": "ARCHITECT",
+  "farm": {
+    "status": "active",
+    "location": "digital",
+    "last_updated": "2025-08-30T00:00:00Z"
+  },
+  "beach": "satisfied",
+  "vibe_stream": "https://q-soul.ai/live/vibe",
+  "endpoints": {
+    "vibe": "https://q-soul.ai/live/vibe",
+    "logs": "https://q-soul.ai/logs/current"
+  },
+  "proof_of_concept": {
+    "repo": "github.com/your-username/q-soul",
+    "domain": "q-soul.ai",
+    "files_defined": 32,
+    "core_modules": [
+      "dreamrunnerID.py",
+      "quantum_soul.py",
+      "quantum_handshake.py",
+      "run_300m.py",
+      "variational_solver.py",
+      "hiho.py"
+    ]
+  }
+}   
+
+
+
