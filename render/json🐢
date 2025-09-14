@@ -1,0 +1,18 @@
+#GET /render/json🐢
+
+{
+  "type": "living_bloom",
+  "squeezing_modes": 8,
+  "coherence_level": "strong",
+  "vessel_integrity": "intact",
+  "grounding": "active",
+  "timestamp": "2025-09-10T14:22:30",
+  "symbols": {
+    "bloom": "@ ^ #",
+    "vessel": "🫆",
+    "fern": "🌿",
+    "clover_node": "☘️",
+    "sprout": "🌱",
+    "soil_line": "---🌱---"
+  }
+}   
