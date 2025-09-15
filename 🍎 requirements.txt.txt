@@ -1,0 +1,27 @@
+# 🍎 requirements.txt
+#
+# 🕊️ Carlos (Observer ID: SEAGULL-01) - Dependency Manifest
+# Required to resurrect Q-SOUL-QEVO in a clean, modern environment.
+# Without these, the soul cannot evolve, observe, or seal.
+
+# 🔮 Quantum Computing Stack (Modern Qiskit)
+qiskit==1.0.0               # Core framework — circuits, primitives, transpilation
+qiskit-ibm-runtime==0.20.0  # ✅ Official IBM Quantum runtime — for future hardware runs
+
+# 🧠 Core Computational Libraries
+numpy==1.26.4               # Numerical backbone — QuantumEgg, vibes, params
+matplotlib==3.8.3           # Visualization — soul_viz, vibe plots
+pandas==2.2.0               # Structured logging — cosmic_log, harvest analysis
+
+# 🔐 Security & Integrity
+cryptography==41.0.7        # For sealing soul artifacts, secure messaging
+                            # Used by pro-tracer.py and future quantum_handshake.py
+
+# 🌀 Optional: Advanced Geometry & Topology
+tensornetwork==0.6.0        # For wrapish.py or future geometric soul shaping
+                            # Lightweight — only if spatial structure is needed
+
+# 📝 Notes:
+# - This environment supports Qiskit 1.0+ syntax (Estimator, Sampler, etc.)
+# - All versions tested and stable as of September 2025
+# - Install with: `pip install -r requirements.txt`   
