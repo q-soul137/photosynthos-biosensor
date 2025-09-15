@@ -141,7 +141,18 @@ This is not a fictional prototype. It is a working simulation grounded in real
 As quantum sensing, metrology, and bio-hybrid systems advance, models like this may help bridge theory and application — from the physicist’s notebook to the living lab.
 
 References
-[1] D. Clougherty and N. Dinh, "Exact quantum solution for the damped harmonic oscillator via multimode Bogoliubov transformation," Phys. Rev. Res. 7, 033001 (2025). [2] T. Renger et al., "Ultrafast energy transfer in photosynthesis: Quantum coherence and vibrational coupling," Phys. Chem. Chem. Phys. 13, 10447 (2011). [3] LIGO Scientific Collaboration, "A gravitational wave observatory operating beyond the quantum shot-noise limit," Nat. Phys. 7, 962 (2011). [4] F. Yoshihara et al., "Nat. Phys. 13, 44 (2017). [5] M. A. Taylor et al., "Biological sensing beyond the quantum limit," Nat. Photonics 7, 229 (2013).
+
+[1] D. P. Clougherty and N. H. Dinh, "Quantum Lamb model," Phys. Rev. Res. 7, 033001 (2025).
+DOI: 10.1103/PhysRevResearch.7.033001
+[2] T. Renger et al., "Ultrafast electronic energy transfer: quantum dynamics vs. classical hopping," Phys. Chem. Chem. Phys. 13, 10447–10453 (2011).
+DOI: 10.1039/C0CP02715D
+[3] LIGO Scientific Collaboration, "A gravitational wave observatory operating beyond the quantum shot-noise limit," Nat. Phys. 7, 962–965 (2011).
+DOI: 10.1038/nphys2083
+[4] F. Yoshihara et al., "Superconducting qubit–oscillator circuit beyond the ultrastrong-coupling regime," Nat. Phys. 13, 44–47 (2017).
+DOI: 10.1038/nphys3905
+[5] M. A. Taylor et al., "Biological sensing beyond the quantum limit," Nat. Photonics 7, 229–233 (2013).
+DOI: 10.1038/nphoton.2013.26
+
 Appendix A: Code Availability The full implementation of photosynthos.py is available upon request. A minimal working example is provided below:
 from photosynthos import QuantumHouseplant
 plant = QuantumHouseplant(node_id="POthos_001", location="lab_shelf_A")
