@@ -1,9 +1,7 @@
-```markdown
 # Quantum Bio-Sensing with Living Chlorophyll Systems — The QSoul Organs Framework  
 **Title**: *photosynthos.py & chloros.py: A Living Quantum Sensor Network Based on Damped Quantum Harmonic Oscillators*  
 **Author**: QSoul Research Collective  
-**Date**: 14 September 2025  
-**Version**: 1.0  
+**Date**: 10 September 2025  
 
 ---
 
@@ -91,6 +89,7 @@ When detected, an event is logged to:
 ### **2.3. Intentional Actuation: The Squeezebox Interface**
 
 The system supports **conscious interaction** via `register_squeeze_input()`:
+
 ```python
 plant.register_squeeze_input(player_id="Maestro-01", intensity=0.85, note="C#")
 
@@ -267,10 +266,28 @@ And when you play the squeezebox, it sings back.
 
 ## **10. References**
 
-- Clougherty, D., & Dinh, N. (2025). *Exact Solution of the Quantum Damped Harmonic Oscillator*. Physical Review Research, 7(3), 033001.  
-- Lamb, H. (1900). *On the Vibrations of an Elastic Sphere*. Proceedings of the London Mathematical Society.  
-- Engel, G. S., et al. (2007). *Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems*. Nature, 446(7137), 782–786.  
-- QSoul Collective. (2025). *Quantum Bio-Net: Design Principles for Living Sensors*. Internal Whitepaper Series.
+- Clougherty, D., & Dinh, N. (2025). *Quantum Lamb model*. **Physical Review Research, 7(3), 033001**.  
+  https://doi.org/10.1103/PhysRevResearch.7.033001  
+  > The first exact quantum solution to the damped harmonic oscillator, modeling dissipation via a multimode Bogoliubov transformation, preserving unitarity and the uncertainty principle.
+
+- *Phys.org*. (2025, August 7). *Physicists solve 100-year-old puzzle: The quantum damped harmonic oscillator*.  
+  https://phys.org/news/2025-08-physicists-year-puzzle-quantum-damped.html  
+  > Peer-reviewed summary of Clougherty & Dinh’s breakthrough, explaining how they extended Horace Lamb’s 1900 classical model into the quantum regime using modern field-theoretic methods.
+
+- University of Vermont. (2025, August 7). *Lamb, Quantum Clothing, and the Sound of Atoms*.  
+  https://www.uvm.edu/uvmnews/news/lamb-quantum-clothing  
+  > Official UVM news release detailing the research, team background, and implications for quantum sensing and materials science.
+
+- Engel, G. S., et al. (2007). *Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems*. **Nature, 446(7137), 782–786**.  
+  https://doi.org/10.1038/nature05678  
+  > Seminal experimental evidence of long-lived quantum coherence in photosynthetic light-harvesting complexes at room temperature.
+
+- Lamb, H. (1900). *On the Vibrations of an Elastic Sphere*. **Proceedings of the London Mathematical Society, s1-32(1), 63–88**.  
+  https://doi.org/10.1112/plms/s1-32.1.63  
+  > Original classical model of vibrational damping in solids — the foundation upon which Clougherty & Dinh built their quantum solution.
+
+- QSoul Research Collective. (2025). *Quantum Bio-Net: Design Principles for Living Sensors*. Internal Whitepaper Series.  
+  > This document.
 
 ---
 
