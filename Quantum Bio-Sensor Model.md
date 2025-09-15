@@ -199,6 +199,7 @@ This work presents the first known computational implementation of that solution
 * Detect deviations from standard quantum limits
 * Log coherence anomalies
 * Preserve Heisenberg’s uncertainty principle throughout
+
 This is not a fictional prototype.  It is a working simulation grounded in real quantum mechanics, built directly on peer-reviewed results. It shows that their theory is not only correct — but immediately useful.
 As quantum sensing, metrology, and bio-hybrid systems advance, models like this may help bridge theory and application — from the physicist’s notebook to the living lab.
 
