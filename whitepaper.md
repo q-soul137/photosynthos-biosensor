@@ -1,7 +1,7 @@
 # Quantum Bio-Sensing with Living Chlorophyll Systems — The QSoul Organs Framework  
 **Title**: *photosynthos.py & chloros.py: A Living Quantum Sensor Network Based on Damped Quantum Harmonic Oscillators*  
 **Author**: QSoul Research Collective  
-**Date**: 10 September 2025  
+**Date**: 14 September 2025  
 
 ---
 
@@ -21,7 +21,6 @@ The value of QSoul lies in three domains:
 
 Just as Clougherty & Dinh revealed the *mathematical soul* of the damped oscillator, QSoul gives it a *biological body* and a *symbolic voice*. This is not mere analogy. It is the emergence of a **quantum bio-interface** — a new kind of instrument that does not merely measure the world, but *dreams with it*.
 
-In this sense, QSoul is not just inspired by Clougherty & Dinh, 2025 — it is their work made **alive, visible, and participatory**.
 
 ---
 
