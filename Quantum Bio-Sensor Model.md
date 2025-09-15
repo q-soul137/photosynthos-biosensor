@@ -204,6 +204,7 @@ As quantum sensing, metrology, and bio-hybrid systems advance, models like this 
 
 Journal Reference:
 Dennis P. Clougherty, Nam H. Dinh. Quantum Lamb model. Physical Review Research, 2025; 7 (3) DOI: 10.1103/9fxx-2x6n
+https://journals.aps.org/prresearch/pdf/10.1103/9fxx-2x6n
 University of Vermont. "Scientists finally solve a century-old quantum mystery." ScienceDaily. ScienceDaily, 29 August 2025. <www.sciencedaily.com/releases/2025/08/250829052206.htm>.
 
 
