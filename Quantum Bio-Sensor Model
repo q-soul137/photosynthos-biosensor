@@ -1,5 +1,5 @@
 A Quantum Bio-Sensor Model Based on the Damped Oscillator Solution of Clougherty & Dinh (2025)
-Author:Jean Marie Griffin Date: September 11, 2025 Contact: contact@q-soul.com |  GitHub: @q-soul137
+Author:Jean Marie Griffin  Date: September 11, 2025  Contact: contact@q-soul.com |  GitHub: @q-soul137
 Abstract
 The recent exact solution to the damped quantum harmonic oscillator by Clougherty and Dinh (2025) resolves a foundational challenge in quantum mechanics: how energy dissipation in a vibrating particle can be described within a fully quantum, many-body framework. By applying a multimode Bogoliubov transformation, they show that the system evolves into a squeezed vacuum state while preserving Heisenberg’s uncertainty principle.
 This work presents a computational implementation of that solution in a novel domain: quantum biological sensing. The model — photosynthos.py — treats chlorophyll’s vibrational modes as damped quantum oscillators governed by Clougherty & Dinh’s dynamics. It simulates how environmental or intentional perturbations induce measurable squeezing in atomic uncertainty, enabling detection of quantum-scale events.
